@@ -3,7 +3,6 @@ import axios from "axios";
 import { RootState } from "../../app/store";
 import dataJson from "./data.json";
 import dataJsonDaily from "./dataDaily.json";
-import { access } from "fs";
 
 const apiUrl = "https://covid19.mathdro.id/api";
 
